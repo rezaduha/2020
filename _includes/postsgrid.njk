@@ -1,0 +1,24 @@
+<article>
+    <div reversed class="card-grid">
+        {% for post in postsgrid | reverse %}
+        <div class="card" style="counter-reset: start-from {{ (postsgridCounter or postsgrid.length) + 1 }}">
+            <div class="card-header">
+                <span class="date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</span>
+                <a href="{{ post.url | url }}">
+                    <h1>{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</h1>
+                </a>
+            </div>
+            <div class="card-body">
+                <ul>
+                {% for tag in post.data.tags %}
+                    {%- if collections.tagList.indexOf(tag) != -1 -%}
+                        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                        <li class="tag"><a href="{{ tagUrl | url }}">{{ tag }}</a></li>
+                    {%- endif -%}
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</article>

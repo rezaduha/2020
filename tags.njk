@@ -15,9 +15,12 @@ renderData:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<div class="page-header">
+  <span>Tagged “{{ tag }}”</span>
+</div>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+<br />
+<a href="{{ '/tags/' | url }}">See all tags</a>

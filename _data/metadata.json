@@ -1,15 +1,20 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Reza Fauzi Zisiwa Duha - I'm Programmer",
+  "url": "https://rezaduha.com/",
+  "description": "I am writing about my experiences as a programmer.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am writing about my experiences as a programmer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "id": "https://rezaduhaduha.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://rezaduha.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Reza Fauzi Zisiwa Duha",
+    "email": "rezafauzizisiwaduha@gmail.com",
+    "url": "https://rezaduha.com/about/"
   }
 }
