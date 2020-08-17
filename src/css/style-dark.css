@@ -48,9 +48,12 @@ a:hover {
   text-decoration: none;
 }
 
-img {
+article img {
   max-width: var(--main-width);
   border-radius: 10px;
+  animation: fade-in 500ms ease-in forwards;
+  animation-delay: 700ms;
+  opacity: 0;
 }
 
 nav {
@@ -368,6 +371,16 @@ details h3 {
 details ul {
   margin-left: 50px;
   line-height: 1.6;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes blob {
