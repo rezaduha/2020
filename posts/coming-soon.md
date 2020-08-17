@@ -1,6 +1,6 @@
 ---
-title: Comming soon
-description: Comming soon
+title: Coming soon
+description: Coming soon
 date: 0000-01-01
 tags:
   #- another-tag
