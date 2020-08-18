@@ -14,8 +14,23 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: black;
+  background: #111;
   color: #f8f8f2;
+}
+pre[class*="-javascript"] {
+  border-left: 4px #ffff00 solid;
+}
+pre[class="languange-java"] {
+  border-left: 4px #c20202 solid;
+}
+pre[class*="-xml"] {
+  border-left: 4px #da0166 solid;
+}
+pre[class*="-css"] {
+  border-left: 4px #00a2ff solid;
+}
+pre[class*="-html"] {
+  border-left: 4px #fd651f solid;
 }
 pre[class*="language-"] {
   padding: 1.5em;
