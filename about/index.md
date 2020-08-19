@@ -40,6 +40,8 @@ I’m pretty busy at college, but I’d be happy to hear from you if you have an
 
 ### EXPERIENCE <i class="fas fa-layer-group"></i>
 
+- **2018-now:** Freelancer
+
 ### EDUCATION <i class="fas fa-user-graduate"></i>
 
 - **2018-now:** Bachelor of Computer Science at Immanuel Christian University (Undergraduate)
