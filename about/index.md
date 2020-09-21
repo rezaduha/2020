@@ -40,11 +40,11 @@ I’m pretty busy at college, but I’d be happy to hear from you if you have an
 
 ### EXPERIENCE <i class="fas fa-layer-group"></i>
 
-- **2018-now:** Freelancer
+- **2018 - present:** Freelancer
 
 ### EDUCATION <i class="fas fa-user-graduate"></i>
 
-- **2018-now:** Bachelor of Computer Science at Immanuel Christian University (Undergraduate)
+- **2018 - present:** Bachelor of Computer Science at Immanuel Christian University (Undergraduate)
 - **2015-2018:** Bintang Laut Catholic Private High School
 
 ### CERTIFICATE <i class="fas fa-certificate"></i>
